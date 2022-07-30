@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML & CSS Spec Project</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -20,28 +24,28 @@
     </nav>
 
     <main>
-        <article>
+        <article class="main-article">
             <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
             <div class="article-top">
                 <span class="entry-author">
                     By Author
                 </span>
                 <div class="social-icons">
-                    <span class="ico">facebook</span>
-                    <span class="ico">twitter</span>
-                    <span class="share">share</span>
+                    <a href="#"><i class="social-f"></i></a>
+                    <a href="#"><i class="social-t"></i></a>
+                    <span class="share">Share</span>
                 </div>
             </div>
-            <img class="main-img" src="" alt="main image">
+            <img class="main-img" src="https://www.rae.es/sites/default/files/styles/wysiwyg_100_/public/2021-07/ramdomtwitter_Mesa%20de%20trabajo%201.png" alt="main image">
             <div class="article-body">
-                <p>The lore:</p>
+                <p>The Lore:</p>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Iure, facilis provident. Quidem possimus quibusdam, nihil
                     odit voluptatem mollitia, enim provident, accusantium impedit
                     odio ad similique corporis minima excepturi? Saepe, perferendis.
                 </p>
-                <p>The ipsum:</p>
+                <p>The Ipsum:</p>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
                     nam beatae dolor architecto iure iusto nesciunt quos quaerat quia
@@ -52,9 +56,9 @@
 
         </article>
         <section class="more-info-section">
-            <h3>More info</h3>
+            <h3 class="more-info-title">More info</h3>
             <section class="iterative-section">
-                <h4>iterative</h4>
+                <h4>Iterative</h4>
                 <ul>
                     <li>The art of a for loop</li>
                     <li>While, ifs and everything in between</li>
@@ -64,7 +68,7 @@
                 </ul>
             </section>
             <section class="recursive-section">
-                <h4>recursive</h4>
+                <h4>Recursive</h4>
                 <ul>
                     <li>To understand recursion</li>
                     <li>One must understand recursion</li>
@@ -74,11 +78,10 @@
                 </ul>
             </section>
         </section>
-
     </main>
 
     <footer>
-        <img class="footer-logo" src="" alt="logo">
+        <img class="footer-logo" src="https://assets-global.website-files.com/5dcc7f8c449e597ed83356b8/6269b3a19f67fd137a262d0a_A%20Logo%20Main%20-%20Red.svg" alt="app academy logo">
         <nav class="footer-nav">
             <a class="footer-nav__links" href="">Contact</a>
             <a class="footer-nav__links" href="">About Us</a>
