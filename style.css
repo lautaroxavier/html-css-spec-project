@@ -42,7 +42,7 @@ header{
 .top-nav a, .sign-in-link, .footer-nav__links{
     text-decoration: none;
     color: rgb(94, 94, 94);
-    font-size: large;
+    font-size: larger;
     font-weight: bolder;
 }
 
@@ -56,7 +56,7 @@ header{
 }
 
 main{
-    width: 80%;
+    width: 90%;
     min-width: 300px;
     max-width: 600px;
     min-height: 70vh;
