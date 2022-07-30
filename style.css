@@ -46,10 +46,6 @@ header{
     font-weight: bolder;
 }
 
-/* .footer-nav__links{
-    padding: 0.5em;
-} */
-
 .footer-nav__links:hover, .sign-in-link:hover{
     text-decoration: underline;
 }
@@ -60,9 +56,9 @@ header{
 }
 
 main{
-    width: 60%;
+    width: 80%;
     min-width: 300px;
-    max-width: 900px;
+    max-width: 600px;
     min-height: 70vh;
     display: flex;
     flex-direction: column;
@@ -167,8 +163,6 @@ i.social-f, i.social-t{
     border-radius: 20px;
     border: 1px solid grey;
 }
-
-
 
 i.social-f{
     background-image: url(https://www.clarin.com/static/CLAClarin/images/icons/fb-icon.svg);
