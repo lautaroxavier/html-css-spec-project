@@ -31,6 +31,14 @@ header{
     border-bottom: 3px solid black;
 }
 
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
 .top-nav a, .sign-in-link, .footer-nav__links{
     text-decoration: none;
     color: rgb(94, 94, 94);
@@ -38,9 +46,9 @@ header{
     font-weight: bolder;
 }
 
-.footer-nav__links{
-    padding: 0 0.5em;
-}
+/* .footer-nav__links{
+    padding: 0.5em;
+} */
 
 .footer-nav__links:hover, .sign-in-link:hover{
     text-decoration: underline;
@@ -48,12 +56,13 @@ header{
 
 .footer-logo{
     width: 15%;
+    min-width: 150px;
 }
 
 main{
-    width: 50%;
+    width: 80%;
     min-width: 300px;
-    max-width: 500px;
+    max-width: 1000px;
     min-height: 70vh;
     display: flex;
     flex-direction: column;
