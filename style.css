@@ -60,9 +60,9 @@ header{
 }
 
 main{
-    width: 80%;
+    width: 60%;
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 900px;
     min-height: 70vh;
     display: flex;
     flex-direction: column;
@@ -96,7 +96,7 @@ footer{
 }
 
 h1{
-    font-size: xx-large;
+    font-size: 40px;
 }
 
 .more-info-section{
